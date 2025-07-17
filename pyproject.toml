@@ -1,0 +1,13 @@
+[project]
+name = "myAgent"
+version = "0.1.0"
+description = "An agent framework with FastAPI backend, OpenAI LLM, and tools."
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openai",
+    "pydantic>=2.11.4"
+]
+
+[tool.uv] 

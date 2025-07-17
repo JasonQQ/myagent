@@ -1,0 +1,2 @@
+def terminate():
+    return "Terminated."
